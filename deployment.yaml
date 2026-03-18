@@ -17,6 +17,6 @@ spec:
       containers:
       - name: wil-playground
         # Image provided by the subject. Tag is v1 (change to v2 for the test)
-        image: wil42/playground:v1
+        image: wil42/playground:v2
         ports:
         - containerPort: 8888
